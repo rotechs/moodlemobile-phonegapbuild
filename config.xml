@@ -2,17 +2,17 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.moodle.moodlemobile"
+        id        = "com.altoron.absl"
         versionCode = "20190"
         version   = "3.3.1">
-    <name>Moodle Mobile</name>
+    <name>ABSL Mobile</name>
 
     <description>
-        Moodle Mobile official app
+        ABSL Official Fashion Design Mobile App
     </description>
 
-    <author href="http://moodle.com" email="mobile@moodle.com">
-        Moodle Mobile team
+    <author href="http://altoron.com" email="development@altoron.com">
+        Altoron team
     </author>
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
