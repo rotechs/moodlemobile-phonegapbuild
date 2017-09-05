@@ -11396,7 +11396,10 @@ angular.module('mm.core.login', [])
     .state('mm_login.site', {
         url: '/site',
         templateUrl: 'core/components/login/templates/site.html',
-        controller: 'mmLoginSiteCtrl'
+        controller: 'mmLoginSiteCtrl',
+			onEnter: function($state) {
+$state.go('mm_login.credentials', {siteurl: 'https://www.absl.com.ng/edu'});  // (here is my institution Moodle URL)
+} 
     })
     .state('mm_login.credentials', {
         url: '/cred',
