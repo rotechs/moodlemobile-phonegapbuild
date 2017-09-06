@@ -11396,10 +11396,7 @@ angular.module('mm.core.login', [])
     .state('mm_login.site', {
         url: '/site',
         templateUrl: 'core/components/login/templates/site.html',
-        controller: 'mmLoginSiteCtrl',
-			onEnter: function($state) {
-$state.go('mm_login.credentials', {siteurl: 'https://www.absl.com.ng/edu'});  // (here is my institution Moodle URL)
-} 
+        controller: 'mmLoginSiteCtrl'
     })
     .state('mm_login.credentials', {
         url: '/cred',
@@ -65721,7 +65718,7 @@ angular.module('mm.core')
     "demo_sites": {"student": {"url": "http://school.demo.moodle.net", "username": "student", "password": "moodle"}, "teacher": {"url": "http://school.demo.moodle.net", "username": "teacher", "password": "moodle"}, "cva": {"url": "http://mm.cvaconsulting.com/moodle", "username": "student", "password": "student"}},
     "gcmpn": "694767596569",
     "customurlscheme": "moodlemobile",
-    "siteurl": "",
+    "siteurl": "https://www.absl.com.ng/edu",
     "skipssoconfirmation": "false",
     "forcedefaultlanguage": "false",
     "privacypolicy": "https://moodle.org/mod/page/view.php?id=8148"
