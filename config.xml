@@ -5,14 +5,14 @@
         id        = "com.altoron.absl"
         versionCode = "20190"
         version   = "3.3.1">
-    <name>ABSL Mobile</name>
+    <name>ABSL Fashion</name>
 
     <description>
         ABSL Official Fashion Design Mobile App
     </description>
 
-    <author href="http://altoron.com" email="development@altoron.com">
-        Altoron team
+    <author href="https://altoron.com" email="development@altoron.com">
+        Altoron Solutions Limited
     </author>
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
