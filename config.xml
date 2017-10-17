@@ -5,10 +5,10 @@
         id        = "com.altoron.absl"
         versionCode = "20190"
         version   = "3.3.1">
-    <name>ABSL Fashion</name>
+    <name>ABSL Fashion Institute</name>
 
     <description>
-        ABSL Official Fashion Design Mobile App
+        ABSL Fashion Institute Mobile App
     </description>
 
     <author href="https://altoron.com" email="development@altoron.com">
