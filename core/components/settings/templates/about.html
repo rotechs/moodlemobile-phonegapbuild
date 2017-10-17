@@ -1,14 +1,20 @@
 <ion-view view-title="{{ 'mm.settings.about' | translate }}" >
     <ion-content mm-state-class>
+		<center>
         <ul class="list">
             <li class="item item-text-wrap">
-				<h2>Mobile App by:</h2>
-				<h2>Altoron Solutions Limited</h2>
-                <p><a href="https://www.altoron.com/" mm-link auto-login="no">https://www.altoron.com/</a></p>
+				<a href="https://www.altoron.com/" mm-link auto-login="no">
+				<img border="0" alt="Altoron.com" src="https://www.absl.com.ng/edu/theme/adaptable/altoron/Altoron_Logo_mobile_306x148.png" width="306" height="148">
+				</a>								
+            </li>
+			<li class="item item-text-wrap">				
+				<h2><a href="https://www.altoron.com/" mm-link auto-login="no">Built for ABSL Fashion Institute by:</a></h2>
+				<h2><a href="https://www.altoron.com/" mm-link auto-login="no">Altoron Solutions Limited</a></h2>
+                <h2><a href="https://www.altoron.com/" mm-link auto-login="no">www.altoron.com</a></p></h2>				
             </li>
 			<li class="item item-text-wrap">				
 				<h2>Contact Us:</h2>
-				<p><a href="mailto:sales@altoron.com?Subject=eLearning%20Mobile%20App" target="_top">sales@altoron.com</a></p>
+				<h2><a href="mailto:sales@altoron.com?Subject=eLearning%20Mobile%20App" target="_top">sales@altoron.com</a></p></h2>
             </li>
 			<li class="item">
                 <h2>{{appname}} {{versionname}}</h2>
@@ -111,5 +117,6 @@
                 <p>{{ localnotifavailable | translate }}</p>
             </li>
         </ul>
+		</center>
     </ion-content>
 </ion-view>
